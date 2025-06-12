@@ -1,5 +1,10 @@
 import React from 'react'
-import { Row, Col, Form, Icon, Input, Button } from 'antd';
+import { Form } from '@ant-design/compatible';
+
+// import '@ant-design/compatible/assets/index.css';
+
+
+import { Row, Col, Input, Button } from 'antd';
 import logo from '../../images/logo.png'
 import { connect } from 'react-redux'
 import { login } from '../../redux/actions/actions'
